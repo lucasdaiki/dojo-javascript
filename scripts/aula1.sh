@@ -1,6 +1,6 @@
 echo 'Preparando seu ambiente'
 
-cd ~/workspace/aulas/aula1/
+cd $(git rev-parse --show-toplevel)/aulas/aula1/
 mkdir javascripting
 cd javascripting
 echo 'Pastas criadas'
