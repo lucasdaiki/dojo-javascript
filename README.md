@@ -14,8 +14,8 @@ Para começar essa brincadeira:
     Choose a template: Blank
 ```
 
- - Entrem no workspace que foi criado
- - Rodem o arquivo `.sh` dentro de acordo com a aula, que ele cuida de todo o resto.
+ - Entre no workspace que foi criado
+ - Execute o arquivo de setup `. scripts/setup.sh`
 
 ## Gostaria de indicar algum conteúdo?
 Abra uma issue. Ficaremos felizes em ajudá-lo.
