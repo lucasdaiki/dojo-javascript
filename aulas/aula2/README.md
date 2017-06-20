@@ -39,3 +39,19 @@ timeout // unsigned long
 upload // XMLHttpRequestUpload
 withCredentials // boolean
 ```
+
+# Fetch API Conceitos Básicos
+
+Fetch é um conceito moderno equivalente a `XMLHttpRequest`. Oferece muitas das mesmas funcionalidades que o `XMLHttpRequest`, mas é projetado para ser mais extensível e eficiente.
+
+O Fetch leva a natureza assíncrona. A API é completamente baseada em Promise.
+
+[Documentação Fetch API](https://fetch.spec.whatwg.org/)
+
+#### Exemplo
+
+```javascript
+fetch('https://jsonplaceholder.typicode.com/albums')
+    .then(res => res.json())
+    .then(result => console.log(result))
+```

@@ -1,6 +1,16 @@
 # Asynchronous Javascript and XML
 
-### AJAX
+### Subir o serviço para o `client`
+
+Entrar no diretório `client` e rodar o comando abaixo:
+
+```bash
+python -m SimpleHTTPServer
+```
+
+Abrir uma aba do browser no endereço: `http://localhost:8000`
+
+### Exemplo html
 
 ```html
 <!DOCTYPE html>
@@ -18,7 +28,7 @@
 </html>
 ```
 
-### Coding
+### Exemplo Javascript
 
 ```javascript
 function openXMLHttpRequest() {
@@ -50,14 +60,22 @@ function openXMLHttpRequest() {
 }
 ```
 
+### Subir o serviço para o `server`
+
+Entrar no diretório `server` e rodar o comando abaixo:
+
+```bash
+node app.js
+```
+
 # Vamos ao DOJO então:
 
  - Criar arquivo javascript `xmlHttpRequest.js`
  - Criar uma `request` com o verbo `GET` para os endpoints abaixo
 
 ```javascript
-const URL_ALBUMS = "https://jsonplaceholder.typicode.com/album"
-const URL_PHOTOS = "https://jsonplaceholder.typicode.com/photo"
+const URL_ALBUMS = "https://jsonplaceholder.typicode.com/albums"
+const URL_PHOTOS = "https://jsonplaceholder.typicode.com/photos"
 ```
 
  - Criar um object `JSON` relacionando os objetos `albums` e `photos` com base nos `ids`
