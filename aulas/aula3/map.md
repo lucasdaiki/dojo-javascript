@@ -1,4 +1,4 @@
-# Array.prototype.Map
+# Array.prototype.map
 
 [Documentação MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 

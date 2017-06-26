@@ -1,4 +1,4 @@
-# Array.prototype.ForEach
+# Array.prototype.forEach
 
 [Documentação MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
