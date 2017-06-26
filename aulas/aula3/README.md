@@ -27,12 +27,12 @@ console.log(bananas) // [ 'Banana', 'Banana', 'Banana', 'Banana', 'Banana' ]
 | filter()      | Creates a new array with every element in an array that pass a test              |
 | find()        | Returns the value of the first element in an array that pass a test              |
 | findIndex()   | Returns the index of the first element in an array that pass a test              |
-| forEach()     | Calls a function for each array element                                          |
+| [forEach()](forEach.md)     | Calls a function for each array element                                          |
 | indexOf()     | Search the array for an element and returns its position                         |
 | isArray()     | Checks whether an object is an array                                             |
 | join()        | Joins all elements of an array into a string                                     |
 | lastIndexOf() | Search the array for an element, starting at the end, and returns its position   |
-| map()         | Creates a new array with the result of calling a function for each array element |
+| [map()](map.md)         | Creates a new array with the result of calling a function for each array element |
 | pop()         | Removes the last element of an array, and returns that element                   |
 | push()        | Adds new elements to the end of an array, and returns the new length             |
 | reduce()      | Reduce the values of an array to a single value (going left-to-right)            |
