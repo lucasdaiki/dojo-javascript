@@ -20,10 +20,12 @@ O `map` executa um `callback` para cada elemento, recebendo três argumentos:
 ```javascript
 any: currentValue, // O valor do elemento corrente.
 Number: index, // O índice do elemento atual sendo processado no array.
-Array: array // O array que forEach() está sendo aplicado.
+Array: array // O array que map() está sendo aplicado.
 ```
 
 Opcional. Valor a ser usado como this quando executar callback.
 ```javascript
 any: thisArg
 ```
+
+E espera um retorno para ser colocado como resultado no array
