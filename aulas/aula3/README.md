@@ -11,6 +11,11 @@ console.log(frutas[0]); // A primeira posição de um Array é sempre a posiçã
 console.log(frutas[1]);
 ```
 
+```javascript
+var bananas = new Array(5).fill('Banana')
+console.log(bananas) // [ 'Banana', 'Banana', 'Banana', 'Banana', 'Banana' ]
+```
+
 ## Métodos
 
 | Método        | Descrição                                                                        |
