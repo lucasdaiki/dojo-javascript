@@ -25,7 +25,7 @@ console.log(bananas) // [ 'Banana', 'Banana', 'Banana', 'Banana', 'Banana' ]
 | every()                   | Checks if every element in an array pass a test                                  |
 | fill()                    | Fill the elements in an array with a static value                                |
 | [filter()](filter.md)     | Creates a new array with every element in an array that pass a test              |
-| find()                    | Returns the value of the first element in an array that pass a test              |
+| [find()](find.md)         | Returns the value of the first element in an array that pass a test              |
 | findIndex()               | Returns the index of the first element in an array that pass a test              |
 | [forEach()](forEach.md)   | Calls a function for each array element                                          |
 | indexOf()                 | Search the array for an element and returns its position                         |
