@@ -35,7 +35,7 @@ console.log(bananas) // [ 'Banana', 'Banana', 'Banana', 'Banana', 'Banana' ]
 | [map()](map.md)           | Creates a new array with the result of calling a function for each array element |
 | pop()                     | Removes the last element of an array, and returns that element                   |
 | push()                    | Adds new elements to the end of an array, and returns the new length             |
-| reduce()                  | Reduce the values of an array to a single value (going left-to-right)            |
+| [reduce()](reduce.md)     | Reduce the values of an array to a single value (going left-to-right)            |
 | reduceRight()             | Reduce the values of an array to a single value (going right-to-left)            |
 | reverse()                 | Reverses the order of the elements in an array                                   |
 | shift()                   | Removes the first element of an array, and returns that element                  |
