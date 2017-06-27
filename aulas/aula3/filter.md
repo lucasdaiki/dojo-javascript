@@ -10,7 +10,7 @@ O `filter` retorna uma nova instancia de array sem modificar o original
 ```javascript
 var frutas = [ 'Maçã', 'Banana' ];
 var ehBanana = fruta => fruta === 'Banana'
-var bananas = frutas.filter(fruta => fruta.filter(ehBanana)); 
+var bananas = frutas.filter(ehBanana); 
 console.log(bananas); // ["Banana"]
 ```
 
