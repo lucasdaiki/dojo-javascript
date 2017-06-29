@@ -29,3 +29,17 @@ Opcional. Valor a ser usado como this quando executar callback.
 ```javascript
 any: thisArg
 ```
+
+### Desafio
+
+Percorra o array `numbers` e imprima se o valor é **impar** ou **par**
+
+```javascript
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+```
+
+Ex: 
+```text
+'1 é impar'
+'12 é par'
+```

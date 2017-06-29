@@ -30,3 +30,16 @@ any: thisArg
 ```
 
 E espera um retorno `bool` para informar se retorna o item no array
+
+### Desafio
+
+Percorra o array `numbers` e retorne um array apenas o primeiro número **primo** que não seja `1`
+
+```javascript
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+```
+
+Ex: 
+```javascript
+7
+```

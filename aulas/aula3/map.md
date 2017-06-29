@@ -29,3 +29,16 @@ any: thisArg
 ```
 
 E espera um retorno para ser colocado como resultado no array
+
+### Desafio
+
+Percorra o array `numbers` e retorne um array com o quadrado de cada valor
+
+```javascript
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+```
+
+Ex: 
+```javascript
+[1, 144, 16, 324, 81, 49, 121, 9, 10201, 25, 36]
+```

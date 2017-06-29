@@ -50,3 +50,16 @@ Opcional. Objeto a ser usado como o primeiro argumento da primeira chamada da fu
 ```javascript
 any: initialValue
 ```
+
+### Desafio
+
+Percorra o array `numbers` e retorne o produto de todos números do array
+
+```javascript
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+```
+
+Ex: 
+```javascript
+5.442.655.680
+```

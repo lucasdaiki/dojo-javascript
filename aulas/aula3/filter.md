@@ -30,3 +30,16 @@ any: thisArg
 ```
 
 E espera um retorno `bool` para informar se retorna o item no array
+
+### Desafio
+
+Percorra o array `numbers` e retorne um array apenas com os números **impares**
+
+```javascript
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+```
+
+Ex: 
+```javascript
+[1, 9, 7, 11, 3, 101, 5]
+```
