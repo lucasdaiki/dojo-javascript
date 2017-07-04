@@ -51,10 +51,10 @@ Object.defineProperty(obj, key, descriptor)
 ```javascript
 var obj = {};
 var descriptorNome = {
-enumerable: false,
-configurable: false,
-writable: false,
-value: 'Rafael'
+    enumerable: false,
+    configurable: false,
+    writable: false,
+    value: 'Rafael'
 };
 var descriptorIdade = {
     enumerable: true,
@@ -88,10 +88,10 @@ Object.getOwnPropertyDescriptor(obj, key);
 ```javascript
 var obj = {};
 var descriptorNome = {
-enumerable: false,
-configurable: false,
-writable: false,
-value: 'Rafael'
+    enumerable: false,
+    configurable: false,
+    writable: false,
+    value: 'Rafael'
 };
 var descriptorIdade = {
     enumerable: true,
