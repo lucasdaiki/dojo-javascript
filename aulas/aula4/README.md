@@ -1,6 +1,8 @@
 # Objetos
 
-### Sintáxe
+[Documentação MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+## Sintáxe
 
 ```javascript 
 let o = new Object([valor]) 
@@ -12,13 +14,13 @@ let o = {}
 // => [chave, valor] ex: {a:b}
 ```
 
-### Descrição
+## Descrição
 
 O construtor Object cria um `objeto englobador` para o valor passado. Se o valor é null ou undefined, será criado e retornado um objeto vazio, caso não seja passado um valor null ou undefined será retornado um objeto que corresponde ao valor passado.
 
 ** Quando chamado em um contexto sem o construtor, o Object se comporta de maneira idêntica.
 
-### Propriedades
+## Propriedades
 
  - prototype - Permite colocar propriedades adicionais para todos os objetos do tipo Object.
 
@@ -28,9 +30,9 @@ Object.prototype.hello = function() {
 }
 ```
 
-### Métodos
+## Métodos
 
- - defineProperty(Objet, 'chave', descriptor)
+### defineProperty(Objet, 'chave', descriptor)
 
 ```javascript
 var obj = {};
@@ -46,7 +48,7 @@ Object.defineProperty(obj, key, descriptor)
 // => Object {nome: 'Rafael'}
 ```
 
-- defineProperties(Objet, props)
+### defineProperties(Objet, props)
 
 ```javascript
 var obj = {};
@@ -71,7 +73,7 @@ Object.defineProperties(obj, props);
 // => Object {nome: 'Rafael'}
 ```
 
-- getOwnPropertyDescriptor(Objet, props)
+### getOwnPropertyDescriptor(Objet, props)
 
 ```javascript
 var obj = {
@@ -83,7 +85,7 @@ Object.getOwnPropertyDescriptor(obj, key);
 // => Object {value: 24, writable: true, enumerable: true, configurable: true}
 ```
 
-- keys(Object)
+### keys(Object)
 
 ```javascript
 var obj = {};
@@ -109,7 +111,7 @@ Object.keys(obj);
 // => ["idade"]
 ```
 
-- getOwnPropertyNames(Object) - AKA (get keys -f)
+### getOwnPropertyNames(Object) - AKA (get keys -f)
 
 ```javascript
 var obj = {};
@@ -137,7 +139,7 @@ Object.keys(obj)
 // => ["idade"]
 ```
 
-- freeze(Object)
+### freeze(Object)
 
 ```javascript
 var obj = {
